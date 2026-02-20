@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "BlazorrShowCase.5i9i2izlfu.styles.css",
+      "AssetFile": "BlazorrShowCase.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y8X+vCAvAzbodqMWFeGzLQJYBkjMK3NgwV9/7Nopa1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Feb 2026 17:28:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5i9i2izlfu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y8X+vCAvAzbodqMWFeGzLQJYBkjMK3NgwV9/7Nopa1I="
+        },
+        {
+          "Name": "label",
+          "Value": "BlazorrShowCase.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "BlazorrShowCase.styles.css",
+      "AssetFile": "BlazorrShowCase.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y8X+vCAvAzbodqMWFeGzLQJYBkjMK3NgwV9/7Nopa1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Feb 2026 17:28:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y8X+vCAvAzbodqMWFeGzLQJYBkjMK3NgwV9/7Nopa1I="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KoXI1DQYGl4rgIjmsNEhzFLCKhxapDr5OYEYhMKOrD0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Feb 2026 17:21:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KoXI1DQYGl4rgIjmsNEhzFLCKhxapDr5OYEYhMKOrD0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.yamx2dknad.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KoXI1DQYGl4rgIjmsNEhzFLCKhxapDr5OYEYhMKOrD0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Feb 2026 17:21:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yamx2dknad"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KoXI1DQYGl4rgIjmsNEhzFLCKhxapDr5OYEYhMKOrD0="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        }
+      ]
+    }
+  ]
+}
