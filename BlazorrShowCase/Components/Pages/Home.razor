@@ -1,22 +1,23 @@
 ﻿@page "/"
 @inject BlazorrShowCase.Components.ViewModels.HomeViewModel Vm
 
-<h1>Our Impact</h1>
 
-<div class="grid">
-    @foreach (var project in Vm.Highlighted)
-    {
-        <div class="card">
-            <img src="@project.ImageUrl" alt="@project.Title" />
-            <h3>@project.Title</h3>
-            <p>@project.Description</p>
+<section class="hero">
+    <div class="hero-text">
+        <h1>Making Real Change, Together</h1>
+        <p>
+            We empower communities through clean water, education,
+            and sustainable development initiatives.
+        </p>
+
+        <div class="hero-actions">
+            <a href="/projects" class="btn primary">Our Projects</a>
+            <a href="/gallery" class="btn primary">Our Gallery</a>
+            <a href="/contact" class="btn outline">Get Involved</a>
         </div>
-    }
-</div>
+    </div>
 
-@code {
-    protected override async Task OnInitializedAsync()
-    {
-        await Vm.LoadAsync();
-    }
-}
+    <div class="hero-image">
+        <img src="https://universidadeuropea.com/resources/media/images/ngo_800.width-1200.format-webp.webp" alt="Helping communities" />
+    </div>
+</section>
