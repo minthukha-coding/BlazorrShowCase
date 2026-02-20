@@ -1,11 +1,22 @@
-﻿@page "/gallery"
-@inject BlazorrShowCase.Components.ViewModels.GalleryViewModel Vm
+﻿@inject BlazorrShowCase.Components.ViewModels.GalleryViewModel Vm
 
-<h1>Gallery</h1>
+@* <h1>Gallery</h1>
 
 <div class="grid">
     @foreach (var img in Vm.Images)
     {
         <img class="gallery-img" src="@img.ImageUrl" />
     }
-</div>
+</div> *@
+
+<section id="gallery" class="section">
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="grid">
+            @foreach (var img in Vm.Images)
+            {
+                <img class="gallery-img" src="@img.ImageUrl" />
+            }
+        </div>
+    </div>
+</section>

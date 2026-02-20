@@ -1,18 +1,21 @@
-﻿@page "/projects"
-@inject BlazorrShowCase.Components.ViewModels.ProjectsViewModel Vm
+﻿@inject BlazorrShowCase.Components.ViewModels.ProjectsViewModel Vm
 
-<h1>Projects</h1>
+<section id="projects" class="section section-muted">
+    <div class="container">
+        <h2>Projects</h2>
 
-<div class="grid">
-    @foreach (var project in Vm.Projects)
-    {
-        <div class="card">
-            <img src="@project.ImageUrl" />
-            <h3>@project.Title</h3>
-            <p>@project.Description</p>
+        <div class="grid">
+            @foreach (var project in Vm.Projects)
+            {
+                <div class="card">
+                    <img src="@project.ImageUrl" />
+                    <h3>@project.Title</h3>
+                    <p>@project.Description</p>
+                </div>
+            }
         </div>
-    }
-</div>
+    </div>
+</section>
 
 @code {
     protected override async Task OnInitializedAsync()
