@@ -1,10 +1,17 @@
 using BlazorrShowCase.Components;
+using BlazorrShowCase.Components.Services;
+using BlazorrShowCase.Components.ViewModels;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+builder.Services.AddScoped<IProjectService, MockProjectService>();
+builder.Services.AddScoped<HomeViewModel>();
+builder.Services.AddScoped<ProjectsViewModel>();
+builder.Services.AddScoped<GalleryViewModel>();
 
 var app = builder.Build();
 

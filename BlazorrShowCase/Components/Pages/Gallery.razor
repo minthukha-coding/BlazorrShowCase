@@ -1,0 +1,11 @@
+﻿@page "/gallery"
+@inject BlazorrShowCase.Components.ViewModels.GalleryViewModel Vm
+
+<h1>Gallery</h1>
+
+<div class="grid">
+    @foreach (var img in Vm.Images)
+    {
+        <img class="gallery-img" src="@img.ImageUrl" />
+    }
+</div>

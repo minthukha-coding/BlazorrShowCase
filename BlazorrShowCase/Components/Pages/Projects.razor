@@ -1,13 +1,13 @@
-﻿@page "/"
-@inject BlazorrShowCase.Components.ViewModels.HomeViewModel Vm
+﻿@page "/projects"
+@inject BlazorrShowCase.Components.ViewModels.ProjectsViewModel Vm
 
-<h1>Our Impact</h1>
+<h1>Projects</h1>
 
 <div class="grid">
-    @foreach (var project in Vm.Highlighted)
+    @foreach (var project in Vm.Projects)
     {
         <div class="card">
-            <img src="@project.ImageUrl" alt="@project.Title" />
+            <img src="@project.ImageUrl" />
             <h3>@project.Title</h3>
             <p>@project.Description</p>
         </div>
